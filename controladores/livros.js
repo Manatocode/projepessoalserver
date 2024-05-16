@@ -42,7 +42,6 @@ function postLivro(req, res) {
             res.send("O campo nome é obrigatório")
         }
 
-
     } catch (error) {
         res.status(500)
         res.send(error.message)
